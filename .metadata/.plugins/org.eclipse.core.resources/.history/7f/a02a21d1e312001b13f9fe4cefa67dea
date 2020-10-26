@@ -1,0 +1,17 @@
+package decisao;
+
+import javax.swing.JOptionPane;
+
+public class Exercicio1 {
+
+	public static void main(String[] args) {
+		
+		float diaria = Float.parseFloat(JOptionPane.showInputDialog("80 reais"));
+			
+		float nota2 = Float.parseFloat(JOptionPane.showInputDialog("Nota 2"));
+		
+		float media = (nota1+nota2)/2;
+
+	}
+
+}

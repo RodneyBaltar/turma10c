@@ -1,0 +1,9 @@
+package br.com.colecoes.beans;
+
+public class Cargo {
+	
+private String nome;
+private String nivel;
+private float salario;
+
+}

@@ -1,0 +1,18 @@
+package decisao;
+
+import javax.swing.JOptionPane;
+
+public class DesafioComposta {
+
+	public static void main(String[] args) {
+
+		String veiculo = JOptionPane.showInputDialog("Digite a capacidade de passageiros").toUpperCase();
+
+		 int    qtde   = Integer.parseInt(JOptionPane.showInputDialog ("Digite a Quantidade"));
+	
+	if (qtde =2) {
+		System.out.println("Aeiculo Categoria A:" + capacidade);
+	}
+
+}
+}

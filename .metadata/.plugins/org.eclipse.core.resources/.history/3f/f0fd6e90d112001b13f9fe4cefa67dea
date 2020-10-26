@@ -1,0 +1,22 @@
+package decisao;
+
+import javax.swing.JOptionPane;
+
+public class DesafioSimples {
+
+	public static void main(String[] args) {
+
+		String nome = JOptionPane.showInputDialog("Digite o nome").toUpperCase();
+
+		String idade = JOptionPane.showInputDialog("Digite a idade").toUpperCase();
+	
+
+		if (idade>=17 && idade<=70) {
+
+
+			System.out.println("Obrigado a votar");
+
+		}
+
+	}
+}
